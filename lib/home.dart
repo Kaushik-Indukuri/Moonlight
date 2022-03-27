@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'login.dart';
+import 'timer.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -87,7 +88,7 @@ class _HomeState extends State<Home> {
                         minWidth: 258,
                         color: Color.fromRGBO(245, 240, 240, 1),
                         onPressed: () {
-                          //Navigator.push(context, MaterialPageRoute(builder: (context) => AddContact()));
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => TimerScreen()));
                         },
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(200)
